@@ -1,3 +1,5 @@
+import { Button, Typography } from "@mui/material";
+
 function StartPage() {
     return (
         <div style={{
@@ -7,22 +9,25 @@ function StartPage() {
         }}>
         
         <div  style= {{
-            width:'600px',
+            width:'300px',
             display:'flex', 
             flexDirection:'column',
-            justifyContent:'center'
+            justifyContent:'center',
+            justifyItems:'center',
+            alignItems:'center'
         }}>
-            <img style = {{width:'600px'}} src="https://st4.depositphotos.com/5045705/23346/v/600/depositphotos_233467822-stock-illustration-cat-dog-robot-cute-cartoon.jpg">
+            <img style = {{width:'300px'}} src="https://st4.depositphotos.com/5045705/23346/v/600/depositphotos_233467822-stock-illustration-cat-dog-robot-cute-cartoon.jpg">
             </img>
-            <h1>Para você gerenciar a saúde do seu pet com facilidade!</h1>
-            <span>Você terá tudo o que precisa para gerenciar a saúde de seus pets.</span>
-            <button style={{
+            <Typography padding="10px" fontSize={'24px'} fontWeight={'700'}>Para você gerenciar a saúde do seu pet com facilidade!</Typography>
+            <Typography padding="10px">Você terá tudo o que precisa para gerenciar a saúde de seus pets.</Typography>
+            <Button style={{
                 width:'188px',
                 height:'46px',
                 backgroundColor:'#F38040',
+                color:'black',
                 borderRadius: '12px',
-                border:'none'
-            }}>Comece agora</button>
+                margin:'30px 0px'
+            }}>Comece agora</Button>
         </div>
     </div>
     );
