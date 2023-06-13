@@ -14,7 +14,7 @@ function Header() {
                 display:'flex',
                 flexDirection:'row',
                 justifyItems:'center',
-                justifyContent:'space-between',
+                justifyContent:'space-around',
                 alignItems:'center'
                 }}>
                 <IconButton>
@@ -27,10 +27,10 @@ function Header() {
                 }}>
                     <Typography style={{
                         color:'#2F80EC',
-                        fontSize:'30px',
-                        lineHeight:'45px',
+                        fontSize:'22px',
+                        lineHeight:'28px',
                         fontWeight:'700',
-                        padding:'16px 56px'
+                        padding:'8px 32px'
                     }}>
                         SaúdePET
                     </Typography>
