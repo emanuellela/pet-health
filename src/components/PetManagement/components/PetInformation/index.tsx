@@ -38,30 +38,11 @@ function PetInformation() {
           <Typography fontSize={11}>Raça:{pet.race}</Typography>
           <Typography fontSize={11}>Data de Nascimento:{pet.date}</Typography>
           <Typography fontSize={11}>Sexo:{pet.sex}</Typography>
-          <Typography fontSize={11}>Castrato:{pet.castrated ? 'Sim' : 'Não'}</Typography>
+          <Typography fontSize={11}>Castrado:{pet.castrated ? 'Sim' : 'Não'}</Typography>
 
         </div>
       </div>
-      <div style={{
-          display:'flex',
-          flexDirection:'row',
-          justifyContent:'end',
-          gap:'4px'
-        }}>
-          <IconButton style={{
-            backgroundColor:'#D9D9D9'
-          }}>
-            <EditIcon></EditIcon>
-          </IconButton>
-
-          <IconButton style={{
-            backgroundColor:'#D9D9D9'
-          }}>
-            <DeleteIcon></DeleteIcon>
-          </IconButton>
-      </div>
     </div>
-
   );
 }
 export default PetInformation;
