@@ -25,7 +25,8 @@ function PetInformation() {
         <img style={{
           width:'100px',
           height:'100px',
-          borderRadius:'100%'
+          borderRadius:'100%',
+          border:'5px solid #dddddd'
         }} src={imgProfile}/>
 
         <div style={{
