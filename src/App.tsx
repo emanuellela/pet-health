@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       {/*<StartPage></StartPage>*/}
       {/*<Login></Login>*/}
-      {/* <SelectionPetPage></SelectionPetPage> */}
+      {/*<SelectionPetPage></SelectionPetPage>*/}
       {/*<PetManagement></PetManagement>*/}
       <Scheduling></Scheduling>
     </div>

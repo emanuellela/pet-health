@@ -33,7 +33,7 @@ interface ButtonCategoryProps {
           }}
           src={imageUrl} alt="Button Icon"
           />
-          <Typography sx={{width:'100%'}} fontWeight={900} fontSize={'14px'} textAlign={'center'}>{buttonText}</Typography>
+          <Typography sx={{width:'100%'}} fontWeight={900} fontSize={'12px'} textAlign={'center'}>{buttonText}</Typography>
         </button>
       </div>
     );
