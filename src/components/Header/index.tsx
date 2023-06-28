@@ -16,7 +16,7 @@ function Header() {
                 justifyContent:'space-around',
                 alignItems:'center'
                 }}>
-                <IconButton>
+                <IconButton href="/">
                     <ArrowBackIcon />
                 </IconButton>
 

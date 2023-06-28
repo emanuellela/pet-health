@@ -6,9 +6,9 @@ import PetManagement from "./components/PetManagement";
 function App() {
   return (
     <div className="App">
-      {/*<StartPage></StartPage>*/}
-      {/*<Login></Login>*/}
-      {/* <SelectionPetPage></SelectionPetPage> */}
+      <StartPage></StartPage>
+      <Login></Login>
+      <SelectionPetPage></SelectionPetPage>
       <PetManagement></PetManagement>
     </div>
   );

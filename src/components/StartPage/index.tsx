@@ -27,7 +27,9 @@ function StartPage() {
                 color:'black',
                 borderRadius: '12px',
                 margin:'30px 0px'
-            }}>Comece agora</Button>
+            }}
+            href="/login"
+            >Comece agora</Button>
         </div>
     </div>
     );

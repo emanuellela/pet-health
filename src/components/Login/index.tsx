@@ -35,7 +35,9 @@ function Login() {
                         width:'115px',
                         backgroundColor:'#48D0FE',
                         borderRadius:'12px'
-                    }}>
+                    }}
+                    href="/pets/create"
+                    >
                         Login
                     </Button>
                 

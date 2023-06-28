@@ -1,4 +1,5 @@
 import { Button, Typography } from "@mui/material";
+import { useNavigate } from "react-router-dom";
 
 interface ButtonProps {
     imageUrl: string;
@@ -14,7 +15,8 @@ interface ButtonProps {
         alignItems:'center'
       }}>
         
-      <button style={{
+      <button
+        style={{
         padding:'15px',
         backgroundColor: '#4ACCF2',
         borderRadius:'12px',
