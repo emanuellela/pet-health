@@ -27,7 +27,7 @@ function SelectionPetPage() {
             alignItems:'center'
         }}>
 
-            <Header></Header>
+            <Header backUrl="/login"></Header>
 
             <Typography sx={{
                 padding:'50px 0px',

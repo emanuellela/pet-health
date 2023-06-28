@@ -6,6 +6,7 @@ import StartPage from './components/StartPage';
 import Login from './components/Login';
 import SelectionPetPage from './components/SelectionPetPage';
 import PetManagement from './components/PetManagement';
+import Scheduling from './components/Scheduling';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -17,7 +18,7 @@ root.render(
       <Route path='/login' element={<Login/>}></Route>
       <Route path='/pets/create' element={<SelectionPetPage/>}></Route>
       <Route path='/pets/home' element={<PetManagement/>}></Route>
-
+      <Route path='/vaccines' element={<Scheduling/>}></Route>
     </Routes>
     
   </BrowserRouter>

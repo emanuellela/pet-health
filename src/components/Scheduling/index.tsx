@@ -3,9 +3,19 @@ import Header from "../Header";
 import React, { useState } from "react";
 import FormVaccine from "./components/FormVaccine";
 import SimpleButton from "./components/SimpleButton";
+import { useNavigate } from "react-router-dom";
+
+
 
 function Scheduling() {
     const [category, setCategory] = useState('');
+
+    const navigate = useNavigate(); 
+    const routeChange = () =>{ 
+        let path = `/pets/home`; 
+        navigate(path);
+    }
+    
 
     const handleChange = (event: SelectChangeEvent) => {
       setCategory(event.target.value);
@@ -25,7 +35,7 @@ function Scheduling() {
             justifyItems:'center',
             alignItems:'center'
         }}>
-            <Header></Header>
+            <Header backUrl="/pets/home"></Header>
             <Typography>Agendamento</Typography>
             <Typography>Crie um lembrete para uma categoria de informações do seu pet</Typography>
 
@@ -53,7 +63,7 @@ function Scheduling() {
             <div style={{
                 marginTop:'30px'
             }}>
-            <SimpleButton label='Salvar'></SimpleButton>
+            <SimpleButton label='Salvar' onClick={() => routeChange()}></SimpleButton>
             </div>
         </div>
     </div>

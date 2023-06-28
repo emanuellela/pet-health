@@ -1,7 +1,11 @@
 import { Avatar, IconButton, Typography } from "@mui/material";
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
-function Header() {
+interface HeaderProps {
+    backUrl?: string;
+  }
+
+function Header({backUrl}: HeaderProps) {
     return (
         <div style={{
             width:'100%',
@@ -16,7 +20,7 @@ function Header() {
                 justifyContent:'space-around',
                 alignItems:'center'
                 }}>
-                <IconButton href="/">
+                <IconButton href={backUrl ? backUrl : '/'}>
                     <ArrowBackIcon />
                 </IconButton>
 
